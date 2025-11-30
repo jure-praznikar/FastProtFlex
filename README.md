@@ -20,7 +20,7 @@ Zenodo https://doi.org/10.5281/zenodo.17771418
 * library(pdist)
 * library(netdist)
 
-** Usage **
+**Usage**
 Save the files FUNCTION_GDV.r, predict.r, and protein.pdb into the folder, <br> 
 then run the R script "predict.r". <br>
 The file "protein.pdb" is used as input. <br> 
