@@ -21,8 +21,9 @@ Zenodo https://doi.org/10.5281/zenodo.17771418
 * library(netdist)
 
 **Usage**
-Save the files FUNCTION_GDV.r, predict.r, and protein.pdb into the folder, <br> 
-then run the R script "predict.r". <br>
+
+Save the files: FUNCTION_GDV.r, predict.r, and protein.pdb into the same folder. <br> 
+Run the R script "predict.r". <br>
 The file "protein.pdb" is used as input. <br> 
 The script creates an additional file, "proteinRMSF.pdb". <br>
 Normalized RMSF values are written in the B-factor column of the standard PDB file. <br>
