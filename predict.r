@@ -36,6 +36,7 @@ RMSFPR <- beta0 + goSM %*% beta # predicted RMSF-values (linear model)
 cat('Atoms: ',length(RMSFPR),'\n')
 # write predicted values in "B-factor" column of pdb file
 pdb$atom$b<-RMSFPR
-cat('Normalized (predicted) RMSF profile \n')
-cat('is written in B-val column in file:proteinRMSF.pdb \n')
 write.pdb(pdb,file='proteinRMSF.pdb')
+cat('Normalized (predicted) RMSF data \n')
+cat('is written in B-val column in the file: proteinRMSF.pdb \n')
+cat('Done! \n')
