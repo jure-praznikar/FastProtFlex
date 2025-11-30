@@ -1,5 +1,5 @@
 # FastProtFlex
-
+![alt text](https://github.com/jure-praznikar/FastProtFlex/blob/main/proteinRMSF_small.png)  <br>
 Lightweight, fast, and purely coordinate-based GDV linear model predicts protein flexibility. <br>
 It can be applied in near real time  (on the order of 10 seconds) even for <br>
 large proteins with 20,000 atoms on a standard desktop or laptop. <br>
@@ -19,6 +19,7 @@ large proteins with 20,000 atoms on a standard desktop or laptop. <br>
 * library(pdist)
 * library(netdist)
 
-Save the files FUNCTION_GDV.r, predict.r, and protein.pdb into the folder, then run the R script "predict.r". <br>
-The file protein.pdb is used as input. The script creates an additional file, proteinRMSF.pdb. <br>
+Save the files FUNCTION_GDV.r, predict.r, and protein.pdb into the folder, <br> 
+then run the R script "predict.r". <br>
+The file "protein.pdb" is used as input. The script creates an additional file, "proteinRMSF.pdb". <br>
 Normalized RMSF values are written in the B-factor column of the standard PDB file. <br>
