@@ -1,4 +1,9 @@
 rm(list=ls())
+#load libraries
+library(igraph)
+library(bio3d)
+library(pdist)
+library(netdist)
 # INPUT file
 pdbfile<-"protein.pdb"
 # GDV Graphlet Degree Vector function
