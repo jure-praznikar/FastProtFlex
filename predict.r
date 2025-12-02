@@ -1,3 +1,9 @@
+# This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). 
+# You may copy, redistribute, remix, and build upon the material in any medium, provided that you do not use it for 
+# commercial purposes. Proper attribution must be given to the original creator.
+# For full license details, please visit:
+# https://creativecommons.org/licenses/by-nc/4.0/
+
 rm(list=ls())
 #load libraries
 library(igraph)
