@@ -37,7 +37,8 @@ if (length(pdb$atom$b)<=10000) {
 }
 # goSM is Nx15 matrix, N is number of atoms, and 15 number of orbits
 goSM<-scale(log(goSM+1)) # scale and log of GDV
-RMSFPR <- beta0 + goSM %*% beta # predicted RMSF-values (linear model)     
+RMSFPR <- beta0 + goSM %*% beta # predicted RMSF-values (linear model)  
+RMSFPR <- scale(RMSFPR) # scale
 #
 cat('Atoms: ',length(RMSFPR),'\n')
 # write predicted values in "B-factor" column of pdb file
