@@ -3,8 +3,13 @@
 Lightweight, fast, and purely coordinate-based GDV linear model predicts protein flexibility. <br>
 It can be applied in near real time  (on the order of 10 seconds) even for <br>
 large proteins with 20,000 atoms on a standard desktop or laptop. <br>
+
+Published: <br>
+Bioinformatics https://doi.org/10.1093/bioinformatics/btag175
+
+Data: <br>
 Zenodo https://doi.org/10.5281/zenodo.17771418 <br>
-bioRxiv(preprint) https://www.biorxiv.org/content/10.64898/2025.11.30.691417v1
+
 
 ### **Prerequisites for running R scripts**  
 
