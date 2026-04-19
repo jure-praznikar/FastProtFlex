@@ -10,6 +10,8 @@ Bioinformatics https://doi.org/10.1093/bioinformatics/btag175
 Data: <br>
 Zenodo https://doi.org/10.5281/zenodo.17771418 <br>
 
+(Beta) FastProtFlex Server <br>
+https://taru.iam.upr.si/fastprotflex <br>
 
 ### **Prerequisites for running R scripts**  
 
